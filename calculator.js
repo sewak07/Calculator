@@ -1,5 +1,4 @@
 let display=document.querySelector("#display"); //select the display
-
 let btns=document.querySelectorAll(".btnNum"); //select the buttons with class .butNum
 for(let btn of btns){                       //loop to get all the buttons
     btn.addEventListener("click",()=>{      // event listner
@@ -17,7 +16,6 @@ Equal.addEventListener("click",()=>{         //event listner
    }catch(error){
     display.value="error"; //handle invalid expression
    }
-   
 })
 
 
